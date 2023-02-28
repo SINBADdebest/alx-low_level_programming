@@ -2,7 +2,7 @@
 
 int main(void)
 {
-fwrite((2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19int\n")(char *, 59));
+fwrite("and that piece of art is useful\" - Dora Korpair, 2015-10-19int\n");
 return (1);
 }
 
