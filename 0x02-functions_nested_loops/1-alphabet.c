@@ -2,7 +2,8 @@
 #include "stdio.h"
 
 /**
- * printing all alphabets in lower case
+ * print_alphabet - printing all alphabets in lower case
+ * Return 0
  */
 
 void print_alphabet(void)
