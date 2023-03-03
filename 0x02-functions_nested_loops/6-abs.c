@@ -4,13 +4,13 @@
 
 /**
  * _abs - this computes the absolute value of an integer
- * @m: the integer to be computed.
+ * @p: the integer to be computed.
  * Returns: the absolute value
  */
-int _abs(int m)
+int _abs(int p)
 {
-	if (m >= 0)
-		return (m);
+	if (p >= 0)
+		return (p);
 	else
-		return (-m);
+		return (-p);
 }
