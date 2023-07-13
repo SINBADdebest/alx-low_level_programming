@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main-using 'puts' to print a text in a line
- * returnin: 0 =success
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
