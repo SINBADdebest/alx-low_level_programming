@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
  * main - printing the size of various types
- * return (0)
+ * Return 0 (GOOD)
  */
 
 int main(void)
 {
-	char z;
-	int x;
-	long int v;
-	long long int b;
-	float n;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
 
-printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(z));
-printf("size of int: %lu byte(s)\n", (unsigned long)sizeof(x));
-printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(v));
-printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(b));
-printf("size of float: %lu byte(s)\n", (unsigned long)sizeof(n));
+printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("size of int: %lu byte(s)\n", (unsigned long)sizeof(b));
+printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+printf("size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
 return (0);
 }
