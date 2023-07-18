@@ -6,15 +6,13 @@
  */
 int main(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (num < 10)
 	{
-		if (letter != 'q' && letter != 'e')
-			putchar(letter);
+		printf("%d", num);
+		num += 1;
 	}
-
-	putchar('\n');
-
+	printf("\n");
 	return (0);
 }
