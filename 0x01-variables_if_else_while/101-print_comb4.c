@@ -14,11 +14,11 @@ int main(void)
 		{
 			for (digit3 = digit2 + 1; digit3 <= 9; digit3++)
 			{
-				putchar((digit1 % 10) + '0');
-				putchar((digit1 % 10) + '0');
-				putchar((digit3 % 10) + '0');
+				putchar(digit1 + '0');
+				putchar(digit2 + '0');
+				putchar(digit3 + '0');
 
-				if (digit1 != 7 || digit2 != 8 || digit3 != 9)
+				if (!(digit1 == 7 && digit2 == 8 && digit3 == 9))
 				{
 					putchar(',');
 					putchar(' ');
@@ -26,6 +26,7 @@ int main(void)
 			}
 		}
 	}
+
 	putchar('\n');
 
 	return (0);
