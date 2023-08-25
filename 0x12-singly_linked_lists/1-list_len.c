@@ -18,7 +18,7 @@ int main(void)
 
 	head = &hello;
 	new = mallox(sizeof(list_t));
-	if(new == NULL)
+	if (new == NULL)
 	{
 		printf("Error\n");
 		return (1);
